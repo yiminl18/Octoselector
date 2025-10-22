@@ -1,0 +1,130 @@
+{
+    "gpt-4o-mini": {
+        "accuracy_key": "acc_gpt-4o-mini",
+        "latency_key": "latency_gpt-4o-mini",
+        "input_token_key": "inputTok_gpt-4o-mini",
+        "output_token_key": "outputTok_gpt-4o-mini",
+        "price": [
+            0.15,
+            0.6
+        ],
+        "groundtruth_path": "GroundTruth",
+        "latency_params": {
+            "theta_in": 0.0007,
+            "theta_out": 0.0153,
+            "t_network": 0.53883
+        }
+    },
+    "gpt-3.5-turbo-0125": {
+        "accuracy_key": "acc_gpt-3.5-turbo-0125",
+        "latency_key": "latency_gpt-3.5-turbo-0125",
+        "input_token_key": "inputTok_gpt-3.5-turbo-0125",
+        "output_token_key": "outputTok_gpt-3.5-turbo-0125",
+        "price": [
+            3,
+            6
+        ],
+        "groundtruth_path": "GroundTruth",
+        "latency_params": {
+            "theta_in": -0.00218,
+            "theta_out": 0.01165,
+            "t_network": 1.09224
+        }
+    },
+    "gpt-4o": {
+        "accuracy_key": "acc_gpt-4o",
+        "latency_key": "latency_gpt-4o",
+        "input_token_key": "inputTok_gpt-4o",
+        "output_token_key": "outputTok_gpt-4o",
+        "price": [
+            2.5,
+            10
+        ],
+        "groundtruth_path": "GroundTruth",
+        "latency_params": {
+            "theta_in": -0.00031,
+            "theta_out": 0.01387,
+            "t_network": 0.85021
+        }
+    },
+    "claude-3-5-haiku-20241022": {
+        "accuracy_key": "acc_claude-3-5-haiku-20241022",
+        "latency_key": "latency_claude-3-5-haiku-20241022",
+        "input_token_key": "inputTok_claude-3-5-haiku-20241022",
+        "output_token_key": "outputTok_claude-3-5-haiku-20241022",
+        "price": [
+            0.8,
+            4
+        ],
+        "groundtruth_path": "GroundTruth",
+        "latency_params": {
+            "theta_in": 0.00128,
+            "theta_out": 0.0128,
+            "t_network": 1.02186
+        }
+    },
+    "claude-3-5-sonnet-20241022": {
+        "accuracy_key": "acc_claude-3-5-sonnet-20241022",
+        "latency_key": "latency_claude-3-5-sonnet-20241022",
+        "input_token_key": "inputTok_claude-3-5-sonnet-20241022",
+        "output_token_key": "outputTok_claude-3-5-sonnet-20241022",
+        "price": [
+            3,
+            15
+        ],
+        "groundtruth_path": "GroundTruth",
+        "latency_params": {
+            "theta_in": 0.00206,
+            "theta_out": 0.01033,
+            "t_network": 1.26562
+        }
+    },
+    "gemini-1.5-flash-8b": {
+        "accuracy_key": "acc_gemini-1.5-flash-8b",
+        "latency_key": "latency_gemini-1.5-flash-8b",
+        "input_token_key": "inputTok_gemini-1.5-flash-8b",
+        "output_token_key": "outputTok_gemini-1.5-flash-8b",
+        "price": [
+            0.0375,
+            0.15
+        ],
+        "groundtruth_path": "GroundTruth",
+        "latency_params": {
+            "theta_in": 0.00085,
+            "theta_out": 0.00464,
+            "t_network": 0.39578
+        }
+    },
+    "gemini-1.5-flash": {
+        "accuracy_key": "acc_gemini-1.5-flash",
+        "latency_key": "latency_gemini-1.5-flash",
+        "input_token_key": "inputTok_gemini-1.5-flash",
+        "output_token_key": "outputTok_gemini-1.5-flash",
+        "price": [
+            0.075,
+            0.3
+        ],
+        "groundtruth_path": "GroundTruth",
+        "latency_params": {
+            "theta_in": 0.00057,
+            "theta_out": 0.0072,
+            "t_network": 0.321
+        }
+    },
+    "gemini-1.5-pro": {
+        "accuracy_key": "acc_gemini-1.5-pro",
+        "latency_key": "latency_gemini-1.5-pro",
+        "input_token_key": "inputTok_gemini-1.5-pro",
+        "output_token_key": "outputTok_gemini-1.5-pro",
+        "price": [
+            1.25,
+            5
+        ],
+        "groundtruth_path": "GroundTruth",
+        "latency_params": {
+            "theta_in": 0.00172,
+            "theta_out": 0.01202,
+            "t_network": 0.44855
+        }
+    }
+}

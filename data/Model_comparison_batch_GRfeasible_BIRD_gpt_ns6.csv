@@ -1,0 +1,5 @@
+Metric,OctoSelector,GraphRouter,overall opt
+Overall Fail rate,0.0,0.83,
+Baseline price (USD),,1.847,1.8469999999999998
+OctoSelector price (USD),,0.06238,0.06238
+Outside baseline feasible price(USD),0.29761554216867475,,
